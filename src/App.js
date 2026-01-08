@@ -7,9 +7,17 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      {/* <Greet /> */}
-      {/* <Welcome /> */}
-      <Hello />
+      <Greet name="Bruce" heroName="Batman">
+        This is children props
+      </Greet>
+      <Greet name="Clark" heroName="Superman">
+        <button>Action</button>
+      </Greet>
+      <Greet name="Diana" heroName="Wonder Woman"/>
+      <Welcome name="Clark" heroName="Superman"/>
+      <Welcome name="Bruce" heroName="Batman"/>
+      <Welcome name="Diana" heroName="Wonder Woman"/>
+      {/* <Hello /> */}
     </div>
   );
 }
