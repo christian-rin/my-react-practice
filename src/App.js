@@ -11,16 +11,15 @@ function App() {
     <div className="App">
       <Counter />
       {/* <Message /> */}
-      {/* <Greet name="Bruce" heroName="Batman">
+      <Greet name="Bruce" heroName="Batman">
         This is children props
       </Greet>
-      <Greet name="Clark" heroName="Superman">
+      {/* <Greet name="Clark" heroName="Superman">
         <button>Action</button>
       </Greet>
-      <Greet name="Diana" heroName="Wonder Woman"/>
+      <Greet name="Diana" heroName="Wonder Woman"/> */}
       <Welcome name="Clark" heroName="Superman"/>
-      <Welcome name="Bruce" heroName="Batman"/>
-      <Welcome name="Diana" heroName="Wonder Woman"/> */}
+      {/* <Welcome name="Bruce" heroName="Batman"/> */}
       {/* <Hello /> */}
     </div>
   );
